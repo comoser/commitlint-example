@@ -1,0 +1,23 @@
+{
+  "name": "commitlint-example",
+  "version": "1.0.0",
+  "description": "Commitlint example project that leverages conventional changelog",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comoser/commitlint-example.git"
+  },
+  "author": "@comoser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comoser/commitlint-example/issues"
+  },
+  "homepage": "https://github.com/comoser/commitlint-example#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.0"
+  }
+}
