@@ -17,7 +17,7 @@ jobs:
     steps:
       - run: |
             echo "Branch: $GITHUB_REF"
-            if [$GITHUB_REF != "main"]
+            if [$GITHUB_REF != "refs/heads/main"]
             then
               echo "This workflow can only run on the main branch"
               exit 1;
