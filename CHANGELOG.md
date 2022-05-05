@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.1 (2022-05-05)
+
+
+### Bug Fixes
+
+* **actions:** fix release action ([16ebbb8](https://github.com/comoser/commitlint-example/commit/16ebbb83b6fa0c2d8bbbc1e63abd89755b0fcbbc))
+
 ## 1.1.0 (2022-05-05)
 
 
