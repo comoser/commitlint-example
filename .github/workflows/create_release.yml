@@ -30,3 +30,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Create release
         run: npm run release
+      - run: git push --follow-tags origin main
