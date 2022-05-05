@@ -1,0 +1,30 @@
+{
+  "name": "commitlint-example",
+  "version": "1.1.0",
+  "description": "Commitlint example project that leverages conventional changelog",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "prepare": "husky install",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comoser/commitlint-example.git"
+  },
+  "author": "@comoser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comoser/commitlint-example/issues"
+  },
+  "homepage": "https://github.com/comoser/commitlint-example#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.0",
+    "standard-version": "^9.3.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
