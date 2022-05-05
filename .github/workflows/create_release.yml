@@ -22,7 +22,7 @@ jobs:
               echo "This workflow can only run on the main branch"
               exit 1;
             fi
+      - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: Create release
-        uses: ./
         run: npm run release
