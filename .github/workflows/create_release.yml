@@ -24,4 +24,5 @@ jobs:
             fi
       # Runs a single command using the runners shell
       - name: Create release
+        uses: ./
         run: npm run release
