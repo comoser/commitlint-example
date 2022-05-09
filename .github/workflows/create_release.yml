@@ -15,7 +15,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: |
+      - name: Main branch check
+        run: |
             echo "Branch: $GITHUB_REF"
             if [$GITHUB_REF != "refs/heads/main"]
             then
@@ -23,11 +24,14 @@ jobs:
               exit 1;
             fi
       - uses: actions/checkout@v3
-      - run: |
+      - name: Setup git config
+        run: |
             git config --global user.email "actions@github.com"
             git config --global user.name "Github Actions"
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
       # Runs a single command using the runners shell
       - name: Create release
         run: npm run release
-      - run: git push --follow-tags origin main
+      - name: Push new tag to origin
+        run: git push --follow-tags origin main
