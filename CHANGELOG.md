@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/comoser/commitlint-example/compare/v1.2.0...v2.0.0) (2022-05-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **routes:** Routes is now a centralized function that should include the rou
+
+### Features
+
+* **routes:** add routes to the application ([764a8fa](https://github.com/comoser/commitlint-example/commit/764a8fa90528c4dd954cf1298acdc670444f1db4))
+
+
+### Bug Fixes
+
+* **conventional:** rollback 1.2.1 tag ([764a52e](https://github.com/comoser/commitlint-example/commit/764a52e1cde78c36d1f498f960c9046af27c948b))
+
 ## [1.2.0](https://github.com/comoser/commitlint-example/compare/v1.1.1...v1.2.0) (2022-05-09)
 
 
