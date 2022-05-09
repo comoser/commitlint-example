@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/comoser/commitlint-example/compare/v1.1.1...v1.2.0) (2022-05-09)
+
+
+### Features
+
+* **feature 1:** add feature 1 to the application ([a3236e0](https://github.com/comoser/commitlint-example/commit/a3236e0fc39d471d775b88df87e6dc21e81c63ed))
+* **feature 2:** add feature 2 to the application ([320d6ed](https://github.com/comoser/commitlint-example/commit/320d6ed4d444d945c9b422bb6701dd017cee05c4))
+
+
+### Bug Fixes
+
+* **changelog:** reset conventional status to v1.1.1 ([2e6eefe](https://github.com/comoser/commitlint-example/commit/2e6eefedf9bd5fd61e2b36861e78b496cbc1f613))
+
 ### 1.1.1 (2022-05-05)
 
 
